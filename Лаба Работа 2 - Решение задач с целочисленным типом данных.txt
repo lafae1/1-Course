@@ -1,0 +1,182 @@
+1)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите расстояние в сантиметрах ";
+	cin >> a;
+	cout << "количество полных местров равно " << a / 100;
+}
+
+2)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите массу в килограммах ";
+	cin >> a;
+	cout << "количество полных тонн равно " << a / 1000;
+}
+
+3)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите рамер файла в байтах ";
+	cin >> a;
+	cout << "количество полных килобайт равно " << a / 1024;
+}
+
+4)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, b;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите два целых положительных числа(А > В) ";
+	cin >> a >> b;
+	cout << "количество отрезков В, размещенных на отрезке А равно " << a / b;
+}
+
+5)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, b;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите два целых положительных числа(А > В) ";
+	cin >> a >> b;
+	cout << "длину незанятой части отрезка A равно " << a % b;
+}
+
+6)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, num1, num2;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите двухзначное число ";
+	cin >> a;
+	num1 = a / 10;
+	num2 = a % 10;
+	cout << "левая цифра: " << num1 << endl << "правая цифра: " << num2;
+}
+
+7)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, num1, num2;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите двухзначное число ";
+	cin >> a;
+	num1 = a / 10;
+	num2 = a % 10;
+	cout << "сумма цифр равна " << num1 + num2 << endl << "произведение цифр равно " << num1 * num2;
+}
+
+8)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, num1, num2;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите двухзначное число ";
+	cin >> a;
+	num1 = a / 10;
+	num2 = a % 10;
+	cout << "число, полученное при перестановке цифр исходного числа: " << num2 << num1;
+}
+
+9)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, num1;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите треххзначное число ";
+	cin >> a;
+	num1 = a / 100;
+	cout << "первая цифра данного числа: " << num1;
+}
+
+10)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, num2, num3;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите треххзначное число ";
+	cin >> a;
+	num2 = (a / 10) % 10;
+	num3 = a % 10;
+	cout << "последняя цифра данного числа: " << num3 << endl << "вторая цифра данного числа " << num2;
+}
+
+11)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, num1, num2, num3;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите треххзначное число ";
+	cin >> a;
+	num1 = a / 100;
+	num2 = (a / 10) % 10;
+	num3 = a % 10;
+	cout << "сумма цифр данного числа: " << num1 + num2 + num3 << endl << "произведение цифр данного числа " << num1 * num2 * num3;
+}
+
+12)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, num1, num2, num3;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите треххзначное число ";
+	cin >> a;
+	num1 = a / 100;
+	num2 = (a / 10) % 10;
+	num3 = a % 10;
+	cout << "число, полученное при прочтении исходного числа справа налево " << num3 << num2 << num1;
+}

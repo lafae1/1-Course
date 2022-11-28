@@ -1,0 +1,128 @@
+1)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите сторону квадрата ";
+	cin >> a;
+	cout << "периметр квадрата равен " << a * 4;
+}
+
+2)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите сторону квадрата ";
+	cin >> a;
+	cout << "площадь квадрата равна " << a * a;
+}
+
+3)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a, b;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите стороны прямоугольника ";
+	cin >> a >> b;
+	cout << "периметр прямоугольника равен " << 2*(a + b);
+}
+
+4)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите диаметр окружности  ";
+	cin >> a;
+	cout << "длинна окружности равна " << a * 3.14;
+}
+
+5)
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+	float a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите длинну ребра куба ";
+	cin >> a;
+	cout << "объем куба равен " << pow(a,3) << endl << "площадь поверхности равна " << 6 * pow(a,2);
+}
+
+6)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a, b, c;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите длинну ребер прямоугольного параллелепипеда ";
+	cin >> a >> b >> c;
+	cout << "объем прямоугольного параллепипида равен " << a * b * c << endl << "площадь поверхности равна " << 2 * (a * b + b * c + a * c);
+}
+
+7)
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+	float a;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите радиус окружности ";
+	cin >> a;
+	cout << "длинна окружности равна  " << 2 * 3.14 * a << endl << "площадь круга " << 3.14 * pow(a,2);
+}
+
+8)
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a, b;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите два числа ";
+	cin >> a >> b;
+	cout << "среднее арифметическое равно " << (a + b) / 2;
+}
+
+9)
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+	float a, b;
+	setlocale(LC_ALL, "Russian");
+
+	cout << "Введите два неотрицательных числа ";
+	cin >> a >> b;
+	cout << "среднее геометрическое равно " << sqrt(a * b);
+}
